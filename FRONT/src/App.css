@@ -1,0 +1,227 @@
+.App {
+	text-align: center;
+}
+
+.headerColor {
+	color: #eb5e55;
+}
+
+.themeButton {
+	border: none;
+	background-color: #f7f6f7;
+	color: #908e8e;
+}
+
+.themeButton:focus {
+	outline: none;
+}
+
+.loginButton {
+	width: 100%;
+	max-width: 200px;
+	padding: 0.5rem 1rem;
+	border-radius: 8px;
+}
+
+.homeButton {
+	border: none;
+	background-color: #eb5e55;
+	color: white;
+}
+
+.homeButton:focus {
+	outline: none;
+}
+
+.setButton {
+	border-radius: 8px;
+}
+
+.logoo {
+	width: 30px;
+	height: 30px;
+	background: #eb5e55;
+	color: aliceblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	margin-right: 10px;
+}
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 0px;
+}
+
+.header__body {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: calc(100% - 20vw);
+}
+
+.singUp #subHead {
+	color: #969494;
+}
+
+.singUp .singUP__Body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 3rem;
+}
+
+.singUp {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: calc(100vh - 72px);
+}
+
+.singUp .container {
+	max-width: 500px;
+}
+.form__group {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 100%;
+	position: relative;
+	padding: 10px 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+.form__group label {
+	text-align: left;
+	font-size: 0.8rem;
+	margin-bottom: 0;
+	color: #969494;
+	transition: 0.3s all ease-in;
+}
+
+.form__group input {
+	width: 100%;
+
+	border: none;
+	padding: 5px 0px;
+}
+.form__group input:focus {
+	outline: none;
+}
+
+.form__group .icon {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #908e8e;
+}
+
+.form__group input[type="email"]:not(:placeholder-shown) {
+	font-weight: bold;
+}
+.form__group input:not([type="email"]) {
+	font-weight: bold;
+}
+
+.form__bundle {
+	width: 100%;
+	display: flex;
+}
+
+.singUp .singUP__Body .homeButton {
+	border-radius: 8px;
+	width: 100%;
+	margin-top: 1rem;
+	height: 50px;
+}
+
+.form__group.animated label {
+	position: absolute;
+	top: 50%;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.form__group.animated input {
+	margin-top: 10px;
+}
+
+/* .form__group.animated input:focus + label {
+	top: 5px;
+	opacity: 1;
+	pointer-events: auto;
+} */
+
+.form__group.animated input:not(:placeholder-shown) + label {
+	top: 5px;
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.form__group input:not(:placeholder-shown) + .icon,
+.form__group.animated input:not(:placeholder-shown) ~ .icon {
+	color: black;
+}
+
+.form__radio {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+}
+
+.form__radio input {
+	width: 15px;
+	height: 25px;
+}
+.form__radio .inputSize {
+	width: 30px;
+	height: 25px;
+}
+
+.form__radio label {
+	margin: 0px;
+	color: #908e8e;
+	font-weight: bold;
+	margin-left: 10px;
+	width: 100%;
+	text-align: left;
+}
+
+.form__radio span {
+	margin: 0px;
+	color: #eb5e55;
+	font-weight: bold;
+	width: 100%;
+	text-align: right;
+}
+
+.singUp .singUP__Body .mnt {
+	color: #908e8e;
+}
+/* .singUp #head2 {
+	font-weight: bold;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+} */
+
+.header .header__body .vbgthsd a {
+	color: #908e8e;
+}
+
+.header .header__body .vbgthsd {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	max-width: 300px;
+}
